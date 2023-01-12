@@ -16,8 +16,8 @@ window.config(padx=50, pady=50)
 canvas = Canvas(width=300, height=414)
 background_img = PhotoImage(file="background.png")
 canvas.create_image(150, 207, image=background_img)
-quote_text = canvas.create_text(150, 207, text="Press the button 👇 to get a quote...", width=250, font=("Arial", 20, "bold"),
-                                fill="white")
+quote_text = canvas.create_text(150, 207, text="Press the button 👇 to get a quote...", width=250,
+                                font=("Arial", 20, "bold"), fill="white")
 canvas.grid(row=0, column=0)
 
 refresh_img = PhotoImage(file="refresh.png")
